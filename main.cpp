@@ -5,6 +5,7 @@
 #include "multiply.h"
 #include "divide1.h"
 #include "percentage.h"
+#include "subtract.h"
 
 using namespace std;
 int main() {
@@ -26,5 +27,8 @@ int main() {
     int finalNumber=percentage(100);
     
     cout<<"100+10% 100:"<<finalNumber<<endl;
+    int diff=subtract(8,3);
+    std::cout<<"difference is : "<<diff;
+
     return 0;
 }
