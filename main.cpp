@@ -4,8 +4,9 @@
 #include "add.h"
 #include "multiply.h"
 #include "divide1.h"
+#include "percentage.h"
 
-
+using namespace std;
 int main() {
     std::string name;
     std::cout << "Enter your name: ";
@@ -22,5 +23,8 @@ int main() {
     int result = divide(4, 8);
     std::cout << "8 / 4 = " << result << std::endl;
 
+    int finalNumber=percentage(100);
+    
+    cout<<"100+10% 100:"<<finalNumber<<endl;
     return 0;
 }
