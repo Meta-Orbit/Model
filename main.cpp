@@ -4,6 +4,7 @@
 #include "add.h"
 #include "multiply.h"
 #include "divide1.h"
+#include "subtract.h"
 
 
 int main() {
@@ -22,5 +23,7 @@ int main() {
     int result = divide(4, 8);
     std::cout << "8 / 4 = " << result << std::endl;
 
+    int diff=subtract(8,3);
+    std::cout<<"difference is : "<<diff;
     return 0;
 }
